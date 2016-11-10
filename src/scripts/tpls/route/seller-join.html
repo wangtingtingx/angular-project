@@ -1,0 +1,36 @@
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>店铺名称</th>
+      <th>店主</th>
+      <th>店铺LOGO</th>
+      <th>入驻日期</th>
+      <th>类别</th>
+      <th>店铺等级</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat = "sellerJoin in sellerJoins">
+      <td>{{sellerJoin.sellerName}}</td>
+      <td>{{sellerJoin.personName}}</td>
+      <td><img ng-src="../../{{sellerJoin.logo}}"/></td>
+      <td>{{sellerJoin.date}}</td>
+      <td>{{sellerJoin.classity}}</td>
+      <td>{{sellerJoin.grade}}</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<div class="changePage">
+    <ul class="pagination">
+    	<li><a href="#">&laquo;</a></li>
+    	<li><a href="#">1</a></li>
+    	<li><a href="#">2</a></li>
+    	<li><a href="#">3</a></li>
+    	<li><a href="#">4</a></li>
+    	<li><a href="#">5</a></li>
+    	<li><a href="#">&raquo;</a></li>
+    </ul>
+</div>

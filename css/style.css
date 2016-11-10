@@ -1,0 +1,44 @@
+﻿
+input{border:none;}
+.navbar{line-height:60px;border:none;height:60px;padding-top:4px;}
+.nav02{float:right}
+
+@font-face {
+  font-family: 'iconfont';  /* project id："173296" */
+  src: url('//at.alicdn.com/t/font_ab53usp30hk6gvi.eot');
+  src: url('//at.alicdn.com/t/font_ab53usp30hk6gvi.eot') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_ab53usp30hk6gvi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_ab53usp30hk6gvi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_ab53usp30hk6gvi.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:22px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+
+
+
+.panel-group{background:#666;}
+.panel{border:none;}
+.panel .panel-heading{background:#666;color:#fff;border-style:none;margin:0 auto;}
+.panel .panel-heading a{display:block;width:100%;height:100%;text-decoration:none;line-height:100%;}
+.panel .panel-heading h4{height:100%;width:100%;display:block}
+.btn-primary{background:pink;width:100%;}
+.panel-body{padding:0;background:#999;}
+
+
+
+.nav-pills li a{height:100%;width:100%;padding-left:40px;color:#111}
+
+.center{width:100%;background:yellow;position:absolute;top:0px;bottom:0;height:100%;}
+.left{width:220px;height:100%;background:#222;float:left;padding-top:80px;}
+.left  p{background:red;height:70px;}
+
+.right{background:#eee;overflow:hidden;height:100%;}
+.header{height:60px;width:100%;background:pink;color:#000;}
+
+
+
+.pagination{margin:0 auto;}
